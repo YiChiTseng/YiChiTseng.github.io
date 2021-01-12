@@ -1086,6 +1086,11 @@ section {
   background-color: #0563bb !important;
 }
 
+.portfolio-details .owl-carousel portfolio-details-carousel{
+  width: 435px;
+  height: 940;
+}
+
 .portfolio-details .portfolio-info {
   padding-top: 45px;
 }
