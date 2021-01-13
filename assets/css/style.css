@@ -1065,6 +1065,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  padding-right: 100px;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
@@ -1100,11 +1101,12 @@ section {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 20px;
+  padding-right:45px;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
-  padding: 0;
+  padding-right: 45px;
   font-size: 15px;
 }
 
