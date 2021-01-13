@@ -1088,6 +1088,7 @@ section {
 .portfolio-details .portfolio-details-carousel {
   width: 435px;
   height: 940px;
+  padding-left: 100px;
 }
 
 .portfolio-details .portfolio-info {
