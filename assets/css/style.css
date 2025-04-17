@@ -1272,3 +1272,19 @@ section {
 .timeline-content {
   padding-left: 15px;
 }
+
+.progress-bar {
+  background-color: #007bff; /* Bootstrap 藍 */
+  transition: width 1s ease-in-out;
+}
+
+.progress .skill {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.progress .val {
+  float: right;
+  font-style: normal;
+  color: #007bff;
+}
