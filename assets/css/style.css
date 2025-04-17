@@ -1244,3 +1244,31 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.timeline {
+  position: relative;
+  margin-left: 30px;
+  border-left: 2px solid #007bff;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.timeline-content {
+  padding-left: 15px;
+}
