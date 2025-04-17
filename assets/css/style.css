@@ -1273,18 +1273,37 @@ section {
   padding-left: 15px;
 }
 
-.progress-bar {
-  background-color: #007bff; /* Bootstrap 藍 */
-  transition: width 1s ease-in-out;
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
-.progress .skill {
+.skills .skill {
   font-weight: 600;
+  margin-bottom: 6px;
   color: #2c3e50;
+  font-size: 15px;
 }
 
-.progress .val {
+.skills .val {
   float: right;
   font-style: normal;
   color: #007bff;
+}
+
+.progress-bar-wrap {
+  background: #f0f0f0;
+  border-radius: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #007bff;
+  width: 0;
+  transition: width 1.5s ease-in-out;
 }
